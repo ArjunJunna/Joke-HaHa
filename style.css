@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.925);
+}
+.section {
+  height: 20rem;
+  width: 20rem;
+  margin: auto;
+  background-color: #ced4da;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 20px #b2c0d6;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  flex-direction: column;
+}
+.para {
+  text-align: center;
+  color: black;
+  line-height: 1.5;
+  font-family: 'Overpass', sans-serif;
+  margin: 0rem 1rem;
+  font-size: 1.2rem;
+}
+.btn {
+  margin: 2rem 0rem 0rem 7.5rem;
+  padding: 0.5rem;
+  background-color: #8e94f2;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.863);
+  font-size: 1.1rem;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.contacts {
+  position: absolute;
+  bottom: 0%;
+  margin-bottom: 0.7rem;
+}
+.icon {
+  margin: 0 0.8rem;
+}
+.icon:hover {
+  transform: scale(1.1);
+}
